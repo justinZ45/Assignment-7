@@ -55,7 +55,7 @@ class SearchField extends Component  //constructs, initializes data
 
     //---------------------------------Trending Gifs---------------------------------------
 
-    obtainTrendData = (event) => //obtains desired gif content using api and url
+    obtainTrendData = (event) => //obtains desired gif content using api and url 
     {
 
 
