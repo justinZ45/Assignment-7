@@ -163,20 +163,13 @@ class SearchField extends Component  //constructs, initializes data
                {this.state.random.map(data=>
                   {
                       return(
-                        <div id = "gif-photos-trend">
+                        <div id = "gif-photos-random">
                         <img src = {data.images.original.url}/>
                         </div>
                       )
                   })}
 
 
-                  
-                
-                 
-
-               
-                    
-            
             </div>
         
 
