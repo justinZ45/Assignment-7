@@ -29,7 +29,7 @@ class SearchField extends Component  //constructs, initializes data
     obtainData = (event) =>  //obtains desired gif content using api and url
     {
 
-       let apiURL = `http://api.giphy.com/v1/gifs/search?q=${this.state.fieldTextInput}&api_key=7btqCnvYaOu4vKug3ipPQ4yP49KWePNq`
+       let apiURL = `https://api.giphy.com/v1/gifs/search?q=${this.state.fieldTextInput}&api_key=7btqCnvYaOu4vKug3ipPQ4yP49KWePNq`
     
        axios.get(apiURL)    
         .then(response => {
@@ -59,7 +59,7 @@ class SearchField extends Component  //constructs, initializes data
     {
 
 
-       let apiURL = `http://api.giphy.com/v1/gifs/trending?api_key=7btqCnvYaOu4vKug3ipPQ4yP49KWePNq`
+       let apiURL = `https://api.giphy.com/v1/gifs/trending?api_key=7btqCnvYaOu4vKug3ipPQ4yP49KWePNq`
     
        axios.get(apiURL)    
         .then(response => {
@@ -86,7 +86,7 @@ class SearchField extends Component  //constructs, initializes data
     obtainRandomData = (event) =>  //obtains desired gif content using api and url
     {
 
-       let apiURL = `http://api.giphy.com/v1/gifs/random?api_key=7btqCnvYaOu4vKug3ipPQ4yP49KWePNq`
+       let apiURL = `https://api.giphy.com/v1/gifs/random?api_key=7btqCnvYaOu4vKug3ipPQ4yP49KWePNq`
     
        axios.get(apiURL)    
         .then(response => {
